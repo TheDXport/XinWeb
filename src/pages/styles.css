@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Retroica';
+    src: url('Fonts/Retroica.ttf') format('truetype')
+}
+
+.retroica {
+    font-family: 'Retroica', sans-serif;
+}
+
+@font-face {
+    font-family: 'PT-Mono';
+    src: url('Fonts/PTMono-Regular.ttf') format('truetype')
+}
+
+.ptmono {
+    font-family: 'PT-Mono', sans-serif;
+}
+
+@import url('https://fonts.cdnfonts.com/css/calling-code');
+
+.callingcode {
+    font-family: 'Calling Code', sans-serif;
+}
+.roundedcorners {
+    border-radius:1.5rem;
+}
+.timesnewroman {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.brittanycolor {
+    background: #061A37;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.container {
+    padding: 1rem 10%;
+}
+
+.unselectable {
+    user-select: none;
+}
+
+div h1 {
+    font-size: 9rem;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 6.25rem;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0.75rem 1.25rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.underline::after {
+    content: '';
+    width: 100%;
+    opacity: 0%;
+    height: 0.1875rem;
+    background: #08f4fc;
+    position: absolute;
+    left: 0;
+    bottom: -0.375rem;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    opacity: 1;
+}
+
+.header-text {
+    margin-top: 20%;
+    font-size: 3.75rem;
+    padding-left: 20%;
+}
+
+.header-text h1 {
+    position: absolute;
+    margin-top: -12.625rem;
+    font-size: 4.825rem;
+    color:#cdd9f0;
+}
+
+.jimmytransition {
+    display: inline-block;
+    padding-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    line-height: 1.5;
+    animation: type .75s steps(22) .75s forwards, blink .5s steps(1) infinite;
+}
+
+@keyframes type {
+    to {
+      width: 12ch;
+    }
+  }
+  
+@keyframes blink {
+    0%,
+    100% {
+      border-color: transparent;
+    }
+  
+    50% {
+      border-color: #000;
+    }
+  }
+
+.header-text h3 {
+    position: absolute;
+    margin-top: -14.4rem;
+    font-size: 1.125rem;
+   
+    color: #ABFFFF;
+}
+
+.header-text p {
+    position: absolute;
+    margin-top: -5.925rem;
+    
+    font-size: 2.3125rem;
+
+    color:#cdd9f0;
+}
+
+.header-text h1 span {
+    color:#08f4fc;
+}
+
+.header-text div {
+    width: 10vh;
+    height: 5vh;
+    padding-bottom:4.6%;
+    margin-right:10%;
+    
+    
+    
+}
+
+#socialmediaicons {
+    padding-bottom: 40%;
+}
+
+#about .social-icon {
+    position: relative;
+    top: -50px;
+    transform: translateY(-50%);
+    padding-left:0;
+}
+
+@media only screen and (max-width: 425px) {
+
+
+    .logo {
+        width: 5.25rem;
+        margin-left:0.5rem;
+        margin-bottom:0.2rem;
+    }
+
+   nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+   }
+
+   .header-text h1 {
+    position: absolute;
+    margin-top: -5.625rem;
+    font-size: 4.125rem;
+    margin-left: 3rem;
+}
+
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 0.75rem 0.5rem;
+    }
+
+}
