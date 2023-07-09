@@ -179,13 +179,12 @@ nav ul li a:hover::after {
     height: 5vh;
     padding-bottom:4.6%;
     margin-right:10%;
-    
-    
-    
+      
 }
 
-#socialmediaicons {
-    padding-bottom: 40%;
+#socialmedia {
+    width:100%;
+    transform: translateY(150%);
 }
 
 #about .social-icon {
@@ -239,6 +238,10 @@ nav .fas {
     }
 
    
+#socialmedia {
+    width:100%;
+    transform: translateY(110%);
+}
 
    nav ul li a {
     color: #ffffff;
