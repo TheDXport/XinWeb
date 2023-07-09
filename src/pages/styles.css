@@ -184,7 +184,7 @@ nav ul li a:hover::after {
 
 #socialmedia {
     width:100%;
-    transform: translateY(150%);
+    padding-top:7%;
 }
 
 #about .social-icon {
@@ -194,9 +194,6 @@ nav ul li a:hover::after {
     padding-left:0;
 }
 
-.menu {
-    display: none;
-}
 
 nav .fas {
     display: none;
@@ -240,24 +237,21 @@ nav .fas {
    
 #socialmedia {
     width:100%;
-    transform: translateY(110%);
+    padding-top: 10%;
 }
 
-   nav ul li a {
-    display:none;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1rem;
-    position: relative;
+nav .fas {
+    display: block;
+    color:white; 
+    font-size: 25px;
+}
+   nav ul {
+    background: green;
+    position: fixed;
+    top: 5px;;
+    right:0;
+    width:200px;
+    height: 100vh;
    }
-
-   
-
-
-    nav ul li {
-        display: inline-block;
-        list-style: none;
-        margin: 0.75rem 0.5rem;
-    }
 
 }
