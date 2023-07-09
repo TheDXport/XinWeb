@@ -26,6 +26,10 @@
     src: url('https://fonts.cdnfonts.com/css/calling-code');
 }
 
+* {
+    padding: 0;
+    margin:0;
+}
 .callingcode {
     font-family: 'Calling Code', sans-serif;
 }
@@ -51,7 +55,7 @@
 
 
 .container {
-    padding: 1rem 10%;
+    padding: 1rem;
 }
 
 .unselectable {
@@ -191,14 +195,50 @@ nav ul li a:hover::after {
     padding-left:0;
 }
 
+.menu {
+    display: none;
+}
+
+nav .fas {
+    display: none;
+}
+
+
 @media only screen and (max-width: 425px) {
 
 
     .logo {
-        width: 5.25rem;
-        margin-left:0.5rem;
-        margin-bottom:0.2rem;
+        width: 30%;
+        margin-left:5%;
     }
+
+    .container {
+        width:100%;
+    }
+
+   .header-text {
+        margin-top:50%;
+        margin-left:-12%;
+    }
+    .header-text h1 {
+        position: relative;
+        margin-left:0;
+        margin-bottom:50%;
+        font-size: 4.325rem;
+        color:#cdd9f0;
+        height:10%;
+    }
+    
+    .header-text p {
+        position: relative;
+        margin-top: -57%;
+        
+        font-size: 2.3125rem;
+    
+        color:#cdd9f0;
+    }
+
+   
 
    nav ul li a {
     color: #ffffff;
@@ -207,12 +247,7 @@ nav ul li a:hover::after {
     position: relative;
    }
 
-   .header-text h1 {
-    position: absolute;
-    margin-top: -5.625rem;
-    font-size: 4.125rem;
-    margin-left: 3rem;
-}
+   
 
 
     nav ul li {
