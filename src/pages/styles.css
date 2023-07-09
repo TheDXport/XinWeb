@@ -228,10 +228,15 @@ nav .fas {
         margin-top:50%;
         margin-left:-12%;
     }
+
+    .header-text h3 {
+        margin-top:-22%;
+    }
+
     .header-text h1 {
         position: relative;
         margin-left:0;
-        margin-bottom:50%;
+        margin-bottom:9%;
         font-size: 4.325rem;
         color:#cdd9f0;
         height:10%;
@@ -239,7 +244,7 @@ nav .fas {
     
     .header-text p {
         position: relative;
-        margin-top: -57%;
+        margin-top: -20%;
         
         font-size: 2.3125rem;
     
