@@ -245,7 +245,7 @@ nav .fas {
     .header-text p {
         position: relative;
         margin-top: -20%;
-        
+        line-height:124%;
         font-size: 2.3125rem;
     
         color:#cdd9f0;
