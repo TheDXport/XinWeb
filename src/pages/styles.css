@@ -3,6 +3,9 @@
 @import url('https://fonts.cdnfonts.com/css/pt-mono');
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Belanosima');
+
 @font-face {
     font-family: 'Retroica';
     src: url('../src/pages/fonts/Retroica.ttf') format('truetype')
@@ -26,6 +29,15 @@
     src: url('https://fonts.cdnfonts.com/css/calling-code');
 }
 
+
+html, body {
+    overflow-x: hidden;
+  }
+
+
+.belanosima {
+    font-family: 'Belanosima';
+}
 * {
     padding: 0;
     margin:0;
@@ -208,6 +220,41 @@ nav .fas {
     display: none;
 }
 
+ /* padding: top right bottom left */
+
+
+ #projectstitle {
+    margin:-6px 20px 40px -18px;
+    top:22%;
+ }
+ .github-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to next line */
+    justify-content: flex-start;
+  }
+
+  #githubsection {
+    flex-basis: calc(50% - 10px);
+    max-width: 400px;
+    border: 3px solid #abffff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #abffff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+    
+  }
+
+  .programminglanugage {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width:3rem;
+  }
+
+  
 
 @media only screen and (max-width: 425px) {
 
@@ -251,6 +298,8 @@ nav .fas {
         color:#cdd9f0;
     }
 
+
+
    
 #socialmedia {
     width:100%;
@@ -274,7 +323,7 @@ nav .fas {
     z-index: 2;
     border-radius:1.5rem;
     padding-top:55px;
-    transition: right 0.5s;
+    transition: right 0.3s;
    }
 
    nav ul li {
