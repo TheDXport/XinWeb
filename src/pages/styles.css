@@ -224,13 +224,15 @@ nav .fas {
 
 
  #projectstitle {
-    margin:-6px 20px 40px -18px;
+    margin:-6px 20px 40px -138px;
     top:22%;
  }
  .github-container {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping to next line */
     justify-content: flex-start;
+    margin-left:200px;
+    padding-top: 20px;
   }
 
   #githubsection {
