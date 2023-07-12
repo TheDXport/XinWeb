@@ -228,6 +228,7 @@ nav .fas {
  #projectstitle {
     margin:-6px 20px 40px -3.8%;
     top:22%;
+
  }
  .github-container {
     display: flex;
@@ -261,8 +262,10 @@ nav .fas {
 
     #contacttitle {
         
-        top: 43%;
-        left: 16%;
+        margin-top:7%;
+        margin-left:16%;
+        color:#cdd9f0;
+        font-size: 120px;
         
       }
  
@@ -281,6 +284,14 @@ nav .fas {
     margin-top:2%;
 
 
+}
+
+#resumetitle {
+    color:white;
+    font-size: 60px;
+
+
+  
 }
 
   
